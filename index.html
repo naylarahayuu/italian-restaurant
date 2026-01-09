@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>La Trattoria - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d41132",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221013",
+                        "accent-gold": "#C5A059"
+                    },
+                    fontFamily: {
+                        "display": ["Newsreader", "serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Newsreader', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-white font-display">
+<!-- Top Navigation Bar -->
+<div class="relative flex h-auto w-full flex-col bg-background-light dark:bg-background-dark">
+<div class="flex items-center p-4 pb-2 justify-between">
+<div class="text-accent-gold flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</div>
+<h2 class="text-accent-gold text-2xl font-bold italic leading-tight tracking-tight flex-1 text-center">La Trattoria</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-accent-gold gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-3xl">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<div class="relative flex h-auto w-full flex-col bg-background-light dark:bg-background-dark">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[560px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 relative" data-alt="Rustic Italian terrace at sunset with vine-covered walls" style='background-image: linear-gradient(rgba(34, 16, 19, 0.6), rgba(34, 16, 19, 0.8)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAL6MYBP9I0qUn6-GpsCRB0IAsksg_VQFXPbcgF5NhqsvLu3W_5V4MxBN5aSYU7Jjfb_SDw3aK0Tcoei4O2JHXerjiBPkSlN8XwqoqlB8IBciRUP7Fl62jzfRqTtZut0zc3zMRfVnfu5627iI3kGmjs2k_KheMP5A2PXba-s8LZt9aAvigRHu_lulWPEgJ6QDjzqYskqL-FyE79J7QNoztOof9j7YCWte0CFFXvaZfyUi2R1Lq0UQTgri_dMPntBRiLIDWpgtBjwxBQ");'>
+<div class="flex flex-col gap-2 text-center z-10">
+<h1 class="text-accent-gold text-5xl font-black leading-tight tracking-[-0.033em] @[480px]:text-6xl italic">
+                            La Trattoria
+                        </h1>
+<div class="w-24 h-[1px] bg-accent-gold mx-auto my-2"></div>
+<h2 class="text-white text-lg font-light italic leading-normal @[480px]:text-xl">Authentic Flavors of the Mediterranean</h2>
+</div>
+<button class="flex min-w-[200px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-[0.05em] shadow-lg transition-transform active:scale-95 border border-primary z-10">
+<span class="truncate uppercase">Book a Table</span>
+</button>
+<!-- Decorative scroll indicator -->
+<div class="absolute bottom-6 flex flex-col items-center gap-1 opacity-60">
+<span class="text-[10px] uppercase tracking-widest">Discover More</span>
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Headline: Our Story -->
+<div class="relative flex h-auto w-full flex-col bg-background-light dark:bg-background-dark">
+<h2 class="text-accent-gold tracking-tight text-[32px] font-bold italic leading-tight px-4 text-center pb-2 pt-10">Our Story</h2>
+<div class="w-12 h-0.5 bg-primary/40 mx-auto mb-4"></div>
+</div>
+<!-- Body Text -->
+<div class="relative flex h-auto w-full flex-col bg-background-light dark:bg-background-dark">
+<p class="text-gray-300 text-lg font-light leading-relaxed pb-8 pt-1 px-8 text-center italic">
+            From the sun-drenched hills of Tuscany to your table, La Trattoria brings the soul of Italy to life. Our recipes are passed down through generations, using only the finest 
+            hand-picked ingredients to create an unforgettable dining experience in the heart of the city.
+        </p>
+</div>
+<!-- Section: Signature Dishes -->
+<div class="relative flex h-auto w-full flex-col bg-background-light dark:bg-background-dark">
+<div class="flex items-center justify-between px-4 pt-4">
+<h3 class="text-white text-xl font-bold leading-tight tracking-tight italic">Signature Dishes</h3>
+<span class="text-accent-gold text-sm font-bold uppercase tracking-widest">View Menu</span>
+</div>
+<!-- Dish Cards Row -->
+<div class="flex overflow-x-auto gap-4 p-4 no-scrollbar">
+<!-- Card 1 -->
+<div class="flex-none w-64 rounded-xl bg-primary/5 border border-white/10 overflow-hidden">
+<div class="h-40 bg-cover bg-center" data-alt="Homemade pappardelle pasta with wild boar ragu" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtJVlCcHe_KpRmehoadia0ny1TGCyyU1NxRcAFuTwtrtls_e9GyF2B_p7kn0IcKU2EqyLsf95s776vy7SYo4vyVi1xj479ftcFH0xW9Xop2GNiexRvi6i4XLF2c6yDcct5YnLzErrC1vYnrETlfkOTckIp7hAkha7MtqAYTzP-VykGF4VMUEksWAO2OExMB8kD5JJXoCKlHzxArC1LaijtxET7UpvUaVDO2pPz1PYzB5NOUQTBQXwDx9Jsw_RzzPeDJWPoBMKTTkGt');"></div>
+<div class="p-4">
+<h4 class="text-accent-gold text-lg font-bold italic">Pappardelle Cinghiale</h4>
+<p class="text-gray-400 text-sm mt-1">Wild boar ragu, pecorino toscano, and fresh herbs.</p>
+<div class="mt-3 text-white font-bold">$28</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex-none w-64 rounded-xl bg-primary/5 border border-white/10 overflow-hidden">
+<div class="h-40 bg-cover bg-center" data-alt="Traditional Osso Buco with saffron risotto" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDUfMqBGfnrpX8Ryp0vrTowlUcXKhZTjWIDD4yE-LVwyXk7GUNlzbzn5c8TI22wHue-ev1W4ScaHanqlxzGoWzGO0PnO4onrR_lTv_XP0rGKKrAwWlIznTwM6mpWt4STyfM7l-R7TxCwRmudr0qGF2stxxiAabUrZxmK0bM-xKVnMIBweciDrdJkbO7vjRS2RisqxmFcfIkIYfmBDgIK6nECowL2VST3AVHWi8FDTp6jSkCi3zoT9Iw4PX9UnRZBYAVNCToL2QqPW5G');"></div>
+<div class="p-4">
+<h4 class="text-accent-gold text-lg font-bold italic">Osso Buco alla Milanese</h4>
+<p class="text-gray-400 text-sm mt-1">Braised veal shanks with gremolata and saffron risotto.</p>
+<div class="mt-3 text-white font-bold">$42</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer / Location Info -->
+<div class="bg-primary/10 mt-10 p-8 text-center border-t border-white/5">
+<h4 class="text-accent-gold text-xl italic font-bold mb-4">Visit Us</h4>
+<p class="text-gray-400 text-sm leading-relaxed">
+            123 Via Roma, Historic District<br/>
+            Florence, Italy<br/>
+<span class="inline-block mt-4 text-white">+39 055 123 4567</span>
+</p>
+<div class="flex justify-center gap-6 mt-6">
+<span class="material-symbols-outlined text-accent-gold">public</span>
+<span class="material-symbols-outlined text-accent-gold">share</span>
+<span class="material-symbols-outlined text-accent-gold">location_on</span>
+</div>
+<div class="mt-8 text-[10px] text-gray-500 uppercase tracking-widest">
+            © 2024 La Trattoria Restaurant Group
+        </div>
+</div>
+<!-- Bottom Mobile Navigation -->
+<div class="fixed bottom-0 left-0 right-0 h-16 bg-background-dark/95 backdrop-blur-md border-t border-white/10 flex items-center justify-around px-6 z-50">
+<div class="flex flex-col items-center text-accent-gold">
+<span class="material-symbols-outlined">restaurant_menu</span>
+<span class="text-[10px] mt-1 uppercase tracking-tighter font-bold">Menu</span>
+</div>
+<div class="flex flex-col items-center text-gray-500">
+<span class="material-symbols-outlined">calendar_month</span>
+<span class="text-[10px] mt-1 uppercase tracking-tighter font-bold">Book</span>
+</div>
+<div class="flex flex-col items-center text-gray-500">
+<span class="material-symbols-outlined">map</span>
+<span class="text-[10px] mt-1 uppercase tracking-tighter font-bold">Visit</span>
+</div>
+<div class="flex flex-col items-center text-gray-500">
+<span class="material-symbols-outlined">info</span>
+<span class="text-[10px] mt-1 uppercase tracking-tighter font-bold">Info</span>
+</div>
+</div>
+<!-- Extra padding for fixed bottom nav -->
+<div class="h-16"></div>
+</body></html>
